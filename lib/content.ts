@@ -1,0 +1,116 @@
+export type Locale = "en" | "ru";
+
+export const copy = {
+  en: {
+    metaTitle: "Flottiee — Portfolio",
+    metaDescription: "Independent design and development. Selected work, practice, and contact.",
+    skip: "Skip to content",
+    menu: "Index",
+    langLabel: "Language",
+    heroKicker: "Portfolio / Menu",
+    heroName: "Flottiee",
+    heroRole: "Design & engineering",
+    heroLead:
+      "Quiet interfaces, precise systems. A compact index of selected work — product, identity, and the spaces between.",
+    nav: [
+      { id: "work", label: "01  Selected" },
+      { id: "practice", label: "02  Practice" },
+      { id: "contact", label: "03  Contact" },
+    ],
+    workTitle: "Selected",
+    workHint: "Hover a title. Open for notes.",
+    projects: [
+      {
+        year: "2026",
+        title: "Atlas Ledger",
+        role: "Product design · Next.js",
+        note: "A financial workspace that keeps density without noise. Tables, filters, and a restrained type system.",
+      },
+      {
+        year: "2025",
+        title: "North Archive",
+        role: "Identity · Web",
+        note: "Editorial site for a small imprint. Slow scroll, paper-like contrast, reading as the primary interaction.",
+      },
+      {
+        year: "2025",
+        title: "Kite OS",
+        role: "Interface · Motion",
+        note: "An operating surface for field tools. Status first, chrome last. Motion only when it clarifies state.",
+      },
+      {
+        year: "2024",
+        title: "Harbor Notes",
+        role: "App · Writing",
+        note: "A private notebook with public export. Markdown in, typography out.",
+      },
+    ],
+    practiceTitle: "Practice",
+    practiceBody: [
+      "I design and ship interfaces that stay out of the way. The work sits between product, type, and a little engineering — enough to keep the idea honest through launch.",
+      "Currently taking on a few focused collaborations: websites, product surfaces, and systems that need a calm visual language.",
+    ],
+    services: ["Product UI", "Static sites", "Design systems", "Art direction"],
+    contactTitle: "Contact",
+    contactLead: "A short brief is enough. If it fits, we start with a conversation.",
+    email: "hello@example.com",
+    availability: "Open for autumn 2026",
+    footer: "Built as a static Next.js export for GitHub Pages.",
+  },
+  ru: {
+    metaTitle: "Flottiee — Портфолио",
+    metaDescription: "Дизайн и разработка. Избранные работы, практика и контакты.",
+    skip: "К содержанию",
+    menu: "Меню",
+    langLabel: "Язык",
+    heroKicker: "Портфолио / Меню",
+    heroName: "Flottiee",
+    heroRole: "Дизайн и инженерия",
+    heroLead:
+      "Спокойные интерфейсы и точные системы. Короткий индекс избранных работ — продукт, айдентика и пространство между ними.",
+    nav: [
+      { id: "work", label: "01  Избранное" },
+      { id: "practice", label: "02  Практика" },
+      { id: "contact", label: "03  Контакт" },
+    ],
+    workTitle: "Избранное",
+    workHint: "Наведите на название. Откройте заметку.",
+    projects: [
+      {
+        year: "2026",
+        title: "Atlas Ledger",
+        role: "Продуктовый дизайн · Next.js",
+        note: "Финансовое рабочее пространство: плотность без шума. Таблицы, фильтры и сдержанная типографика.",
+      },
+      {
+        year: "2025",
+        title: "North Archive",
+        role: "Айдентика · Веб",
+        note: "Редакционный сайт небольшого издательства. Медленный скролл, бумажный контраст, чтение как главный жест.",
+      },
+      {
+        year: "2025",
+        title: "Kite OS",
+        role: "Интерфейс · Моушн",
+        note: "Операционная поверхность для полевых инструментов. Сначала статус, потом хром. Движение — только если оно проясняет состояние.",
+      },
+      {
+        year: "2024",
+        title: "Harbor Notes",
+        role: "Приложение · Текст",
+        note: "Личная записная книжка с публичным экспортом. Markdown на входе, типографика на выходе.",
+      },
+    ],
+    practiceTitle: "Практика",
+    practiceBody: [
+      "Проектирую и собираю интерфейсы, которые не мешают. Работа на стыке продукта, шрифта и немного инженерии — чтобы идея дожила до запуска без потери точности.",
+      "Сейчас беру несколько сфокусированных коллабораций: сайты, продуктовые поверхности и системы, которым нужен спокойный визуальный язык.",
+    ],
+    services: ["Продуктовый UI", "Статические сайты", "Дизайн-системы", "Арт-дирекшн"],
+    contactTitle: "Контакт",
+    contactLead: "Короткого брифа достаточно. Если совпадает — начинаем с разговора.",
+    email: "hello@example.com",
+    availability: "Открыто к осени 2026",
+    footer: "Статический экспорт Next.js для GitHub Pages.",
+  },
+} as const;
